@@ -1,0 +1,26 @@
+Controle um nômade através do deserto, lutando contra diversos perigos da Terra amaldiçoada e contra suas próprias necessidades.
+
+->Jogo completamente integrado com Twitter: jogue com um personagem diferente cada vez que logar!
+->Combine estratégias com todo o tipo de bônus em tempo real gerado por sua conta no Twitter
+->Explore e busque por água e comida em um território gigante, desértico e hostil
+->Entre em batalhas épicas com o sistemas de combate e colisão dinâmicos
+--------------------------------------------//---------------------------------------------------
+Liberte o Oriente-médio da maldição que o tornou um gigante deserto!
+Lute com suas hordas de monstros, supra os focos de resistência e se torne general de um exército!
+
+projectNOMAD é uma proposta inovadora:
+As habilidades de seu personagem são redefinidas segundo seus status do Twitter a cada login,
+tornando o desafio muito mais divertido!
+A integração se extende a bônus em tempo real, por menções e respotas, fazendo o jogo muito mais dinâmico!
+O sistema de sobrevivência é imersivo: deves buscar comida e água para ti e para as tribos nômades espalhadas pelo mapa
+Grandes mapas a serem explorados e grandes distâncias a serem percorridas!
+Um mundo infindável o espera em projectNOMAD!
+
+teamalduin@gmail.com
+Requisitos Minimos
+OS: Microsoft® Windows® XP / Vista / 7 (32-bit/64-bit)
+CPU: Intel® Pentium®4 2.0GHz ou maior
+Memoria RAM: 512MB ou maior
+Resolução: 1024×768 ou maior
+Espaço em Disco: 400MB ou maior
+*Necessário suporte ao DirectX (qualquer versão igual ou superior à versão 9.0c)
