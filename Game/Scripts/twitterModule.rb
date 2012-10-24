@@ -6,17 +6,22 @@ module TwitterModule
   def getInfo (file, lineNumber)
     lineNumber.times{file.gets}
     line = $_
+    length=line.length
     
     i = 0
-    
     while line[i] != ':' do
        i+=1
     end
-    
     i+=1
+ 
+    levelString=""
+    while line[i]!="\n" do
+      levelString+=line[i]
+      i+=1
+    end
+
     file.rewind
-    
-    return line[i]
+    return levelString
 
   end
   
@@ -33,7 +38,7 @@ module TwitterModule
   end
   
   def tweet(file, info)
-    Twitter.update("I leveled up on #projectNOMAD, now I'm level "+info+"!")
+    #Twitter.update("I leveled up on #projectNOMAD, now I'm level "+info+"!")
     file.puts("leveledUp:0")
     p info
   end
@@ -43,16 +48,17 @@ module TwitterModule
      setUserInfo()
     
      if File.exists?("config.projectNOMAD") then
-       configFile = File.open('C:\Users\Saulo\Documents\RPGVXAce\projectNOMAD\Scripts\config.projectNOMAD', "r+")
+       configFile = File.open("config.projectNOMAD", "r+")
      else
        File.new("config.projectNOMAD", "w")
-       configFile = File.open('C:\Users\Saulo\Documents\RPGVXAce\projectNOMAD\Scripts\config.projectNOMAD', "r+")
+       configFile = File.open("config.projectNOMAD", "r+")
      end
      
      while true do
        info = getInfo(configFile, 1)
-      
+       
        if info == "1" then
+         
          info2 = getInfo(configFile, 2)
          tweet(configFile, info2)
        end
