@@ -58,7 +58,6 @@ module TwitterModule
        info = getInfo(configFile, 1)
        
        if info == "1" then
-         
          info2 = getInfo(configFile, 2)
          tweet(configFile, info2)
        end

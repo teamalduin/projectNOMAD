@@ -7,6 +7,6 @@ class Teste
   
   t1=Thread.new{listener()}
   sleep 60
-  p "opsaokpasok"
+  p "test"
   
 end
